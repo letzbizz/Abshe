@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Get Support</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap-4.4.1.css" rel="stylesheet">
+    <!-- Font Awswome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity=""
+        referrerpolicy="no-referrer" />
+    <!--	 CSS-->
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid text-center d-none">
+        <div class="container-fluid">
+            <div class="col-md-2 logo">Get<br> Support<span class="hypen">_ </span></div>
+        </div>
+    </div>
+    <div class="">
+        <img class="img-fluid" src="images/banner.jpg">
+    </div>
+    <div style="background-image: url('images/main_bg.jpeg');">
+        <div class="container-fluid">
+            <div class="title"> Service Request Catalog</div>
+            <div class="body">
+                <div class="row" style=" ">
+                    <div class="col-md-2 access-request">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3002"
+                            id="access-request" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/access.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">ACCESS REQUEST</h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="access-request-help" ></div>
+                    </div>
+                    <div class="col-md-2 communication">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3004"
+                            id="communication" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/comm.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">COMMUNICATION </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="communication-info"></div>
+                    </div>
+                    <div class="col-md-2 hardware">
+                        <a href=" https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3007"
+                            id="hardware">
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/hardware.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">HARDWARE </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="hardware-info" ></div>
+                    </div>
+                    <div class="col-md-2 software">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3302"
+                            id="software" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/software.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">SOFTWARE </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="software-info" ></div>
+                    </div>
+                    <div class="col-md-2 connectivity">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3005"
+                            id="connectivity" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/connectivity.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">CONNECTIVITY </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="connectivity-info" class="network"></div>
+                    </div>
+                    <div class="col-md-2 network">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3019"
+                            id="network" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/network.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">NETWORK </h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="row" style="    margin-bottom: 20px;">
+                    <div class="col-md-2 humancapital">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3024"
+                            id="humancapital" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/human.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">HUMAN CAPITAL </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="human-capital-info" ></div>
+                    </div>
+                    <div class="col-md-2 infrastructure">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3010"
+                            id="infrastructure" class="">
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/insfrastructure.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">IT INFRASTRUCTURE </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="infrastructure-info" ></div>
+                    </div>
+                    <div class="col-md-2 security">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3020"
+                            id="security">
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/itsecurity.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">IT SECURITY </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="security-info" ></div>
+                    </div>
+                    <div class="col-md-2 dataManagement">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3023"
+                            id="dataManagement" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/data.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">DATA MANAGEMENT </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="dataManagement-info" ></div>
+                    </div>
+                    <div class="col-md-2 appManagement">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3028"
+                            id="appManagement" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/api.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">APP MANAGEMENT </h4>
+                                </div>
+                            </div>
+                        </a>
+                        <div id="appManagement-info" ></div>
+                    </div>
+                    <div class="col-md-2 newProject">
+                        <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3604"
+                            id="newProject" >
+                            <div class="card shadow-lg" onmouseover="highlightElement(this)"
+                                onmouseout="removeHighlightElement(this)">
+                                <img class="card-img-top" src="images/newproj.png" alt="Card image cap">
+                                <div class="card-body">
+                                    <h4 class="card-title">NEW PROJECT </h4>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row footer">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class=" col-md-12 text-center">
+                        <ul>
+                            <li class="shadow-sm" style="border-radius: 5px; padding-right:10px" onmouseover="highlightFooter(this)"
+                                onmouseout="removeHighlightFooter(this)"> <a
+                                    href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=4205"
+                                    target="_blank"> <span class="btn"><img src="images/forgot.png"
+                                            style="height: 40px;"> </span>&nbsp;&nbsp;
+                                    Forgot User ID (or) Password </a>
+                            </li>
+                            <li class="shadow-sm" style="border-radius: 5px; padding-right:10px" onmouseover="highlightFooter(this)"
+                                onmouseout="removeHighlightFooter(this)"> <a
+                                    href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=4"
+                                    target="_blank"> <span class="btn"><img src="images/issue.png"
+                                            style="height: 40px;">
+                                    </span>&nbsp;&nbsp;Log An Issue</a>
+                            </li>
+                            <li class="shadow-sm" style="border-radius: 5px; padding-right:10px" onmouseover="highlightFooter(this)"
+                                onmouseout="removeHighlightFooter(this)"> <a
+                                    href="https://absher.edgegroup.ae/AddNewChange.cc" target="_blank"> <span
+                                        class="btn"><img src="images/rfc.png" style="height: 40px;"> </span>&nbsp;&nbsp;
+                                    Request for Change (RFC)</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Search for topics">
+                            <div class="input-group-append">
+                                <button class="btn_search" type="button"
+                                    onclick="window.location.href='https://absher.edgegroup.ae/SolutionsHome.do?action=view'">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap-4.4.1.js"></script>
+    <script src="js/support-handler.js"></script>
+</body>
+<script>
+    // Access Request Information Data
+    var accessRequestid = $('#access-request-help');
+    var accessRequest = '<div id="pop1" class="popbox" ><h3>Access Request</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol>  </div>';
+    // Helper method for Access Request Tab Hover In
+    function accesshovIn() {        
+        accessRequestid.html(accessRequest);
+        accessRequestid.dialog('open');
+    }
+    // Helper method for Access Request Tab Hover Out
+    function accesshovOut() {
+        accessRequestid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label        
+    }
+
+    // Communication Information Data
+    var communicationid = $('#communication-info');
+    var communicationData = '<div id="pop1" class="popbox" ><h3>Communication</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+    // Helper method for Communication Tab Hover In
+    function communicationhovIn() {
+        communicationid.html(communicationData);
+        communicationid.dialog('open');
+    }
+    // Helper method for Communication Tab Hover Out
+    function communicationhovOut() {
+        communicationid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+   }
+
+    // Hardware Information Data
+    var hardwareid = $('#hardware-info');
+    var hardware = '<div id="pop1" class="popbox" ><h3>Hardware</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for Hardware Tab Hover In
+    function hardwarehovIn() {
+        hardwareid.html(hardware);
+        hardwareid.dialog('open');
+    }
+    // Helper method for Hardware Tab Hover Out
+    function hardwarehovOut() {
+        hardwareid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+    }
+
+    // Software Information Data
+    var softwareid = $('#software-info');
+    var software = '<div id="pop1" class="popbox" ><h3>Software</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for software Tab Hover In
+    function softwarehovIn() {
+        softwareid.html(software);
+        softwareid.dialog('open');
+    }
+    // Helper method for software Tab Hover Out
+    function softwarehovOut() {
+        softwareid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+    }
+
+    // Connectivity Information Data
+    var connectivityid = $('#connectivity-info');
+    var connectivity = '<div id="pop1" class="popbox" ><h3>Connectivity</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for Connectivity Tab Hover In
+    function connectivityhovIn() {
+        connectivityid.html(connectivity);
+        connectivityid.dialog('open');
+    }
+    // Helper method for Connectivity Tab Hover Out
+    function connectivityhovOut() {
+        connectivityid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+    }
+
+    // Network Information Data
+    var networkid = $('#connectivity-info');
+    var network = '<div id="pop1" class="popbox" ><h3>Network</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for Network Tab Hover In
+    function networkhovIn() {
+        networkid.html(network);
+        networkid.dialog('open');
+    }
+    // Helper method for Network Tab Hover Out
+    function networkhovOut() {
+        networkid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+    }
+
+    // Human Capital Information Data
+    var humanCapitalid = $('#human-capital-info');
+    var humanCapital = '<div id="pop1" class="popbox" ><h3>Human Capital</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for Human Capital Tab Hover In
+    function humanCapitalhovIn() {
+        humanCapitalid.html(humanCapital);
+        humanCapitalid.dialog('open');
+    }
+    // Helper method for Human Capital Tab Hover Out
+    function humanCapitalhovOut() {
+        humanCapitalid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+    }
+
+    // IT Infrastructure Information Data
+    var infrastructureid = $('#infrastructure-info');
+    var infrastructureData = '<div id="pop1" class="popbox" ><h3>IT Infrastructure</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for Human Capital Tab Hover In
+    function infrastructurehovIn() {
+        infrastructureid.html(infrastructureData);
+        infrastructureid.dialog('open');
+    }
+    // Helper method for Human Capital Tab Hover Out
+    function infrastructurehovOut() {
+        infrastructureid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+   }
+
+    // IT Security Information Data
+    var securityid = $('#security-info');
+    var securityData = '<div id="pop1" class="popbox" ><h3>IT Security</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for IT Security Tab Hover In
+    function securityhovIn() {
+        securityid.html(securityData);
+        securityid.dialog('open');
+    }
+    // Helper method for IT Security Tab Hover Out
+    function securityhovOut() {
+        securityid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+   }
+
+    // Data Management Information Data
+    var dataManagementid = $('#dataManagement-info');
+    var dataManagementInfo = '<div id="pop1" class="popbox" ><h3>Data Management</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for Data Management Tab Hover In
+    function dataManagementhovIn() {
+        dataManagementid.html(dataManagementInfo);
+        dataManagementid.dialog('open');
+    }
+    // Helper method for Data Management Tab Hover Out
+    function dataManagementhovOut() {
+        dataManagementid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+    }
+
+    // App Management Information Data
+    var appManagementid = $('#appManagement-info');
+    var appManagementData = '<div id="pop1" class="popbox" ><h3>App Management</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+
+    // Helper method for App Management Tab Hover In
+    function appManagementhovIn() {
+		appManagementid.html(appManagementData);
+        appManagementid.dialog('open');
+    }
+    // Helper method for App Management Tab Hover Out
+    function appManagementhovOut() {
+        appManagementid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+   }
+
+    // New Project Information Data
+    var newProjectid = $('#appManagement-info');
+    var newProjectData = '<div id="pop1" class="popbox" ><h3>New Project</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol></p> </div>';
+
+    // Helper method for App Management Tab Hover In
+    function newProjecthovIn() {
+		newProjectid.html(newProjectData);
+        newProjectid.dialog('open');
+    }
+    // Helper method for App Management Tab Hover Out
+    function newProjecthovOut() {
+        newProjectid.html(''); //<-- Causes dlg text to appear/disappear as you move mouse on/off checkbox and label
+    }
+
+    $('.access-request').hover(accesshovIn, accesshovOut);
+    $('.communication').hover(communicationhovIn, communicationhovOut);
+    $('.hardware').hover(hardwarehovIn, hardwarehovOut);
+    $('.software').hover(softwarehovIn, softwarehovOut);
+    $('.connectivity').hover(connectivityhovIn, connectivityhovOut);
+    $('.network').hover(networkhovIn, networkhovOut);
+    $('.humancapital').hover(humanCapitalhovIn, humanCapitalhovOut);
+    $('.infrastructure').hover(infrastructurehovIn, infrastructurehovOut);
+    $('.security').hover(securityhovIn, securityhovOut);
+    $('.dataManagement').hover(dataManagementhovIn, dataManagementhovOut);
+    $('.appManagement').hover(appManagementhovIn, appManagementhovOut);
+    $('.newProject').hover(newProjecthovIn, newProjecthovOut);
+
+    eid.dialog({
+        autoOpen: false,
+        title: "Your jQueryUI Dialog",
+        show: "fade",
+        hide: "fade",
+        width: 500, //orig defaults: width: 300, height: auto
+        buttons: {
+            Ok: function () {
+                $(this).dialog('close');
+            }
+        }
+    }); 
+</script>
+
+</html>
