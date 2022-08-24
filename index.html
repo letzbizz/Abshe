@@ -11,7 +11,7 @@
     <!-- Font Awswome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity=""
         referrerpolicy="no-referrer" />
-    <!--	 CSS-->
+    <!-- CSS -->
     <link href="css/main.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400&display=swap" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -23,8 +23,8 @@
             <div class="col-md-2 logo">Get<br> Support<span class="hypen">_ </span></div>
         </div>
     </div>
-    <div class="">
-        <img class="img-fluid" src="images/banner.jpg">
+    <div >
+        <img class="img-fluid" src="images/absher.jpg">
     </div>
     <div style="background-image: url('images/main_bg.jpeg');">
         <div class="container-fluid">
@@ -94,7 +94,7 @@
                                 </div>
                             </div>
                         </a>
-                        <div id="connectivity-info" class="network"></div>
+                        <div id="connectivity-info"></div>
                     </div>
                     <div class="col-md-2 network">
                         <a href="https://absher.edgegroup.ae/WorkOrder.do?woMode=newWO&amp;reqTemplate=3019"
@@ -107,6 +107,7 @@
                                 </div>
                             </div>
                         </a>
+						<div id="network-info"></div>
                     </div>
                 </div>
                 <div class="row" style="    margin-bottom: 20px;">
@@ -186,6 +187,7 @@
                                 </div>
                             </div>
                         </a>
+						<div id="newProject-info" ></div>
                     </div>
                 </div>
             </div>
@@ -311,8 +313,8 @@
     }
 
     // Network Information Data
-    var networkid = $('#connectivity-info');
-    var network = '<div id="pop1" class="popbox" ><h3>Network</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
+    var networkid = $('#network-info');
+    var network = '<div id="pop1" class="popbox" style="width:150%" ><h3>Network</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> </p> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol> </div>';
 
     // Helper method for Network Tab Hover In
     function networkhovIn() {
@@ -395,8 +397,8 @@
    }
 
     // New Project Information Data
-    var newProjectid = $('#appManagement-info');
-    var newProjectData = '<div id="pop1" class="popbox" ><h3>New Project</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol></p> </div>';
+    var newProjectid = $('#newProject-info');
+    var newProjectData = '<div id="pop1" class="popbox" style="width:150%" ><h3>New Project</h3> <p><b>Service Description :</b>  <div style="font-size: 14px;">A access request, is a "ask" to a entity or organisation asking for access to the application </div> </p> <p><b>Service Execution Steps :</b> <ol style="font-size: 14px;"> <li>Login </li> <li>Choose the service from the list of services</li>	<li>Fill in the application data</li> <li>Submit for approval (Stage 1 - Line Manager; Stage 2 - Business Owner; Stage 3 - Informamtion Security (if applicable) </li><li>Receipt of the request (electronic mail) </li> </ol> </p> <p><b>Service Level Agreement :</b> <ol style="font-size: 12px;"> <li>High - 10 hrs </li> <li>Medium - 15 hrs </li>	<li>Low - 3 Days 5 hrs </li>  </ol></p> </div>';
 
     // Helper method for App Management Tab Hover In
     function newProjecthovIn() {
@@ -434,5 +436,4 @@
         }
     }); 
 </script>
-
 </html>
