@@ -162,6 +162,10 @@ a {
 	box-shadow: 0 0.5rem 1rem rgba(251, 69, 21, 0.44) !important;
 }
 
+.gateway-grid { 
+	width: 100%; margin-left: 16%;
+}
+
 #instructions{padding: 10px 0; background:yellow; color:brown;}
 #access-request-help, #communication-info, #hardware-info, #software-info, #connectivity-info, #human-capital-info,
 #infrastructure-info, #appManagement-info, #dataManagement-info, #security-info {
@@ -176,5 +180,5 @@ a {
     padding:5px; 
     background:auto; 
     color:aqua;
-    margin-left:-70%;
+	margin-left:-70%;
 }
