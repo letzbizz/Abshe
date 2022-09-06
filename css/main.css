@@ -6,7 +6,7 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
-.body{
+.body {
 	align-items: center;
 	padding: 20px 5px 0px 5px;
 	border: transparent;
@@ -141,6 +141,7 @@ a:hover {
 .highlight {
 	background: linear-gradient(90deg, rgb(227, 97, 78) 0%, rgb(236, 157, 157) 43%, rgb(231, 198, 195) 100%);
 }
+
 .footer-highlight {
 	background: linear-gradient(90deg, rgb(230, 202, 199) 0%, rgb(236, 157, 157) 43%, rgb(239, 98, 68) 100%);
 }
@@ -148,37 +149,55 @@ a:hover {
 .card-title {
 	color: white !important;
 }
+
 a {
 	color: white !important;
 }
+
 .btn_search {
 	background-color: #FF5B00 !important;
-	border-radius: 2px; 
+	border-radius: 2px;
 	border: transparent;
-	color:white;
+	color: white;
 	width: 75px;
 }
+
 .box-shadow {
 	box-shadow: 0 0.5rem 1rem rgba(251, 69, 21, 0.44) !important;
 }
 
-.gateway-grid { 
-	width: 100%; margin-left: 16%;
+.gateway-grid {
+	width: 100%;
+	margin-left: 16%;
 }
 
-#instructions{padding: 10px 0; background:yellow; color:brown;}
-#access-request-help, #communication-info, #hardware-info, #software-info, #connectivity-info, #human-capital-info,
-#infrastructure-info, #appManagement-info, #dataManagement-info, #security-info {
-    width:200%;  
-    padding:5px; 
-    background:auto; 
-    color:aqua;
+#instructions {
+	padding: 10px 0;
+	background: yellow;
+	color: brown;
 }
 
-#network-info, #newProject-info {
-    width:110%;  
-    padding:5px; 
-    background:auto; 
-    color:aqua;
-	margin-left:-70%;
+#access-request-help,
+#communication-info,
+#hardware-info,
+#software-info,
+#connectivity-info,
+#human-capital-info,
+#infrastructure-info,
+#appManagement-info,
+#dataManagement-info,
+#security-info {
+	width: 200%;
+	padding: 5px;
+	background: auto;
+	color: aqua;
+}
+
+#network-info,
+#newProject-info {
+	width: 110%;
+	padding: 5px;
+	background: auto;
+	color: aqua;
+	margin-left: -70%;
 }
